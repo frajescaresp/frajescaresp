@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @frajescaresp
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Crear un nuevo directorio para el proyecto
+mkdir red-social
+cd red-social
 
-<!---
-frajescaresp/frajescaresp is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Inicializar un nuevo proyecto de Node.js
+npm init -y
+
+# Instalar dependencias necesarias
+npm install express mongoose bcryptjs jsonwebtoken multer cors
